@@ -1,0 +1,1958 @@
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x567f3
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x1504
+	Process Name:		C:\Users\Jamsheed\AppData\Local\WebLaunchRecorder\Screen Recorder Launcher.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x567f3
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x109c
+	Process Name:		C:\Program Files\DB Browser for SQLite\DB Browser for SQLite.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x567f3
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x1698
+	Process Name:		C:\Windows\explorer.exe
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x87ce57
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x87ce57
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x87ce57
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x3dc
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	JAMSHI
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+u'A logon was attempted using explicit credentials.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tJAMSHI$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3e7\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nAccount Whose Credentials Were Used:\r\n\tAccount Name:\t\tJamsheed\r\n\tAccount Domain:\t\tJamshi\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nTarget Server:\r\n\tTarget Server Name:\tlocalhost\r\n\tAdditional Information:\tlocalhost\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3dc\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tNetwork Address:\t127.0.0.1\r\n\tPort:\t\t\t0\r\n\r\nThis event is generated when a process attempts to log on an account by explicitly specifying that account\u2019s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.\r\n'Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x2748
+	Process Name:		C:\Windows\System32\LogonUI.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1005
+	Account Name:		VUSR_JAMSHI3
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1005
+	Account Name:		VUSR_JAMSHI3
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1004
+	Account Name:		VUSR_JAMSHI2
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1004
+	Account Name:		VUSR_JAMSHI2
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1003
+	Account Name:		VUSR_JAMSHI1
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1003
+	Account Name:		VUSR_JAMSHI1
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1002
+	Account Name:		VUSR_JAMSHI
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1002
+	Account Name:		VUSR_JAMSHI
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1013
+	Group Name:		ORA_INSTALL
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1022
+	Group Name:		ORA_ASMDBA
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1038
+	Account Name:		oracledb
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1038
+	Account Name:		oracledb
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-559
+	Group Name:		Performance Log Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1049
+	Group Name:		Ssh Users
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1037
+	Group Name:		ORA_OraDB12Home3_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1036
+	Group Name:		ORA_OraDB12Home3_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1035
+	Group Name:		ORA_OraDB12Home3_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1031
+	Group Name:		ORA_OraDB12Home2_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1030
+	Group Name:		ORA_OraDB12Home2_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1029
+	Group Name:		ORA_OraDB12Home2_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1021
+	Group Name:		ORA_OraDB12Home1_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1020
+	Group Name:		ORA_OraDB12Home1_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1019
+	Group Name:		ORA_OraDB12Home1_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1024
+	Group Name:		ora_dba
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1022
+	Group Name:		ORA_ASMDBA
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-546
+	Group Name:		Guests
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-501
+	Account Name:		Guest
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-501
+	Account Name:		Guest
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-503
+	Account Name:		DefaultAccount
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-503
+	Account Name:		DefaultAccount
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1049
+	Group Name:		Ssh Users
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-500
+	Account Name:		Administrator
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-500
+	Account Name:		Administrator
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-501
+	Account Name:		Guest
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x26f8
+	Process Name:		C:\Windows\System32\CompatTelRunner.exe
+An account was logged off.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x654366
+
+Logon Type:			2
+
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x654366
+
+Privileges:		SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+	Logon ID:		0x654366
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x3dc
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	JAMSHI
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+u'A logon was attempted using explicit credentials.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tJAMSHI$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3e7\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nAccount Whose Credentials Were Used:\r\n\tAccount Name:\t\tJamsheed\r\n\tAccount Domain:\t\tJamshi\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nTarget Server:\r\n\tTarget Server Name:\tlocalhost\r\n\tAdditional Information:\tlocalhost\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3dc\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tNetwork Address:\t127.0.0.1\r\n\tPort:\t\t\t0\r\n\r\nThis event is generated when a process attempts to log on an account by explicitly specifying that account\u2019s credentials.  This most commonly occurs in batch-type configurations such as scheduled tasks, or when using the RUNAS command.\r\n'A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x3a4
+	Process Name:		C:\Windows\System32\LogonUI.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1005
+	Account Name:		VUSR_JAMSHI3
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1005
+	Account Name:		VUSR_JAMSHI3
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1004
+	Account Name:		VUSR_JAMSHI2
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1004
+	Account Name:		VUSR_JAMSHI2
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1003
+	Account Name:		VUSR_JAMSHI1
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1003
+	Account Name:		VUSR_JAMSHI1
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1002
+	Account Name:		VUSR_JAMSHI
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1002
+	Account Name:		VUSR_JAMSHI
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1013
+	Group Name:		ORA_INSTALL
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1022
+	Group Name:		ORA_ASMDBA
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1038
+	Account Name:		oracledb
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1038
+	Account Name:		oracledb
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-545
+	Group Name:		Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-559
+	Group Name:		Performance Log Users
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1049
+	Group Name:		Ssh Users
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1037
+	Group Name:		ORA_OraDB12Home3_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1036
+	Group Name:		ORA_OraDB12Home3_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1035
+	Group Name:		ORA_OraDB12Home3_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1031
+	Group Name:		ORA_OraDB12Home2_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1030
+	Group Name:		ORA_OraDB12Home2_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1029
+	Group Name:		ORA_OraDB12Home2_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1021
+	Group Name:		ORA_OraDB12Home1_SYSKM
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1020
+	Group Name:		ORA_OraDB12Home1_SYSDG
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1019
+	Group Name:		ORA_OraDB12Home1_SYSBACKUP
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1024
+	Group Name:		ora_dba
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1022
+	Group Name:		ORA_ASMDBA
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1001
+	Account Name:		Jamsheed
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-546
+	Group Name:		Guests
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-501
+	Account Name:		Guest
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-501
+	Account Name:		Guest
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-503
+	Account Name:		DefaultAccount
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-503
+	Account Name:		DefaultAccount
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-32-544
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A security-enabled local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Group:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-1049
+	Group Name:		Ssh Users
+	Group Domain:		Jamshi
+
+Process Information:
+	Process ID:		0x0
+	Process Name:		-
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-500
+	Account Name:		Administrator
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+User:
+	Security ID:		S-1-5-21-270882856-1105154991-747807492-500
+	Account Name:		Administrator
+	Account Domain:		Jamshi
+
+Process Information:
+	Process ID:		0xbe8
+	Process Name:		C:\Program Files\TrueKey\McAfee.TrueKey.Service.exe
+Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		JAMSHI$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x2a8
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.

@@ -1,0 +1,6 @@
+<clients>
+<client ip="127.0.0.1" port="7777" username="jamsheed" password="Jamsheed" mail="jamshi.onnet@gmail.com">    
+    <alert type="memory" limit="50%" />
+    <alert type="cpu" limit="20%" />
+</client>
+</clients>
